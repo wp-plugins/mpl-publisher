@@ -12,7 +12,7 @@ MPL - Publisher is a plugin to help you publish your WordPress posts as an elega
 
 == Description ==
 
-MPL â€“ Publisher is a WordPress plugin to convert your blogâ€™s posts into an eBook. The pluginâ€™s main purpose is to help writers to publish their own books the simplest possible way, easing the process of converting to the different digital formats.
+MPL – Publisher is a WordPress plugin to convert your blog’s posts into an eBook. The plugin’s main purpose is to help writers to publish their own books the simplest possible way, easing the process of converting to the different digital formats.
 
 The plugin is still in an early development stage (check the features section and roadmap to future releases) and open to any comments, bugs or issues you may have. You can contact me sending an email
 
@@ -59,13 +59,23 @@ In future releases we will add support to other formats like PDF, mobi, etc. Kee
 
 == Changelog ==
 
-= 1.1.1 =
+= 1.2.0 =
+- New default book style
+- Added Spanish and Catalan translation
+- Replace Twig with illuminate/view as view engine
+- Fix duplicate ID chapter
+
+= 1.1.0 =
 - Sort individual chapters manually
 
-= 1.0 =
+= 1.0.0 =
 - Initial release.
 
 == Upgrade Notice ==
+
+= 1.2.0 =
+- New default style
+- Added Spanish and Catalan translation
 
 = 1.1.1 =
 - Sort individual chapters manually

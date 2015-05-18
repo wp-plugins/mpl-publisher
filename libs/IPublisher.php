@@ -1,6 +1,6 @@
 <?php
 
-namespace MPL;
+namespace MPL\Publisher;
 
 interface IPublisher {
 
@@ -12,7 +12,7 @@ interface IPublisher {
 
 	public function setPublisher($publisherName);
 	
-	public function addChapter($title, $content);
+	public function addChapter($id, $title, $content);
 
 	public function save($filename, $dir);
 
